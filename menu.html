@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FoodFunday</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/menustyle (1).css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<style>
+body,h1,h2,h3{font-family: "Karma", sans-serif}
+bar-block bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) --->
+<nav class="sidebar bar-block card top xlarge animate-left black" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="_close()"
+  class="bar-item button">Close Menu</a>
+  <a href="top.html" onclick="_close()" class="bar-item button">Home</a>
+
+</nav>
+<!-- Menu selector -->
+<div id="menu" class="container black xxlarge padding-64">
+<h1 class="center jumbo padding-32">THE MENU</h1>
+<div class="row center border border-deep-orange">
+<a href="#pizza">
+<div class="third padding-large hover-deep-orange">Pizza&amp;burger</div></a>
+<a href="#pasta">
+<div class="third padding-large hover-deep-orange">Pasta</div></a>
+<a href="#starters">
+<div class="third padding-large hover-deep-orange">Starters</div>
+</a> 
+</div>
+<div class="row center border border-deep-orange">
+<a href="#Arabicfood">
+<div class="third padding-large hover-deep-orange">Arabicfood</div></a>
+<a href="#Dessert">
+<div class="third padding-large hover-deep-orange">Dessert</div></a>
+<a href="#Drinks">
+<div class="third padding-large hover-deep-orange">Drinks</div>
+</a>
+</div>
+
+<!-- Top menu -->
+<div class="top">
+  <div class="white xlarge black" style="max-width:1200px;margin:auto">
+    <div class="button padding-16 left" onclick="_open()">☰</div>
+    <div class="right padding-16"></div>
+    <div class="center padding-16"></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="main content padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- pizza Grid-->
+  <div class="row-padding padding-16 center" id="pizza">
+    <div class="quarter">
+      <img src="./img/pizza/v.jpg" alt="pizza" style="width:100%">
+      <h3>Vegetarian Supreme</h3>
+      <p>58.22$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/p1.jpg" alt="pizza" style="width:100%">
+      <h3>Classic Pepperoni</h3>
+      <p>57.12$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/v1.jpg" alt="pizza" style="width:100%">
+      <h3>Chicken Supreme</h3>
+      <p>55.36$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/v2.jpg" alt="pizza" style="width:100%">
+      <h3>Mix Cheese</h3>
+      <p>49.63$</p>
+    </div>
+  </div>
+  <!-- purger Grid-->
+  <div class="row-padding padding-16 center" id="pizza">
+    <div class="quarter">
+      <img src="./img/pizza/p7.jpg" alt="purger" style="width:100%">
+      <h3>beef burger</h3>
+      <p>43.55$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/p.jpeg" alt="purger" style="width:100%">
+      <h3>Double Cheese Burger</h3>
+      <p>44.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/p5.jpg" alt="purger" style="width:100%">
+      <h3>cheese Burger</h3>
+      <p>35.63$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pizza/p6.jpg" alt="purger" style="width:100%">
+      <h3>chicken burger</h3>
+      <p>40.99$</p>
+    </div>
+  </div>
+  <!-- pasta Grid-->
+  <div class="row-padding padding-16 center" id="pasta">
+    <div class="quarter">
+      <img src="./img/pasta/p5.jpg" alt="pasta" style="width:100%">
+      <h3>Mussels pasta</h3>
+      <p>43.55$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pasta/pp2.jpg" alt="pasta" style="width:100%">
+      <h3>Creamy chicken pasta</h3>
+      <p>44.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pasta/pasta.jpg" alt="pasta" style="width:100%">
+      <h3> vegetable Pasta</h3>
+      <p>35.63$</p>
+    </div>
+        <div class="quarter">
+      <img src="./img/pasta/pp3.jpg" alt="pasta" style="width:100%">
+      <h3>Classic spaghetti</h3>
+      <p>40.99$</p>
+    </div>
+  </div>
+  <!-- Starters Photo Grid-->
+  <div class="row-padding padding-16 center" id="starters">
+    <div class="quarter">
+      <img src="./img/pasta/sa.jpg" alt="Starters" style="width:100%">
+      <h3>vegetable salad</h3>
+      <p>5.66$</p>
+    </div>
+        <div class="quarter">
+      <img src="./img/pasta/sa0.jpg" alt="Starters" style="width:100%">
+      <h3>Finger food</h3>
+      <p>19.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pasta/sa2.jpg" alt="Starters" style="width:100%">
+      <h3> escargots dish </h3>
+      <p>20.63$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/pasta/sa1.jpg" alt="Starters" style="width:100%">
+      <h3>Fried Spring Roll </h3>
+      <p>18.99$</p>
+    </div>
+  </div>
+  <!--arab grid -->
+  <div class="row-padding padding-16 center" id="Arabicfood">
+    <div class="quarter">
+      <img src="./img/arab/shorma.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Shawarma</h3>
+      <p>25.11$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/tamia.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Shakshouka and Falafel</h3>
+      <p>40.12$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/g0.jpg" alt="Arabicfood" style="width:100%">
+      <h3>stuffed grapes leaves</h3>
+      <p>30.05$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/kabsa.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Biryani Dish</h3>
+      <p>56.30$</p>
+    </div>
+  </div>
+  <!--arab2 grid -->
+  <div class="row-padding padding-16 center" id="Arabicfood">
+    <div class="quarter">
+      <img src="./img/arab/sam.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Samosa</h3>
+      <p>5.11$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/re.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Roasted chicken</h3>
+      <p>40.12$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/d.jpg" alt="Arabicfood" style="width:100%">
+      <h3>stuffed eggplants</h3>
+      <p>30.05$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/arab/fantosh.jpg" alt="Arabicfood" style="width:100%">
+      <h3>Hummus with Bread</h3>
+      <p>56.30$</p>
+    </div>
+  </div>
+   <!--dessert grid1 -->
+  <div class="row-padding padding-16 center" id="Dessert">
+    <div class="quarter">
+      <img src="./img/des/ice.jpg" alt="dessert" style="width:100%">
+      <h3>Icecream on Pineapple</h3>
+      <p>15.50$</p>
+    </div>
+    
+    <div class="quarter">
+      <img src="./img/des/des1.jpg" alt="dessart" style="width:100%">
+      <h3>Pudding</h3>
+      <p>10.35$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/des/cup.jpg" alt="dessert" style="width:100%">
+      <h3>Chocolate Parfait </h3>
+      <p>5.00$</p>
+      <p></p>
+    </div>
+    <div class="quarter">
+      <img src="./img/des/cake.jpg" alt="dessert" style="width:100%">
+      <h3>Chocolate Cake </h3>
+      <p>14.42$</p>
+    </div>
+  </div>
+  <!--dessert grid2 -->
+  <div class="row-padding padding-16 center" id="Dessert">
+    <div class="quarter">
+      <img src="./img/des/cookies.jpg" alt="dessert" style="width:100%">
+      <h3>Brown Cookies</h3>
+      <p>9.30$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/des/pie.jpg" alt="dessert" style="width:100%">
+      <h3>Pumpkin Pie </h3>
+      <p>10.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/des/lemoncake.jpg" alt="dessert" style="width:100%">
+      <h3>Caramel Cake</h3>
+      <p>43.15$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/des/cakee.jpg" alt="dessert" style="width:100%">
+      <h3>Pancakes</h3>
+      <p>12.10$</p>
+    </div>
+  </div>
+  <!--drinks grid -->
+  <div class="row-padding padding-16 center" id="Drinks">
+    <div class="quarter">
+      <img src="./img/dr/coffe.jpg" alt="Drinks" style="width:100%">
+      <h3>Coffee</h3>
+      <p>9.30$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/d.jpg" alt="Drinks" style="width:100%">
+      <h3>Tea</h3>
+      <p>4.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/r.jpg" alt="Drinks" style="width:100%">
+      <h3>Orange Juice</h3>
+      <p>7.15$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/bb.jpg" alt="Drinks" style="width:100%">
+      <h3> berry smoothie</h3>
+      <p>12.10$</p>
+    </div>
+  </div>
+  <!--drinks grid -->
+  <div class="row-padding padding-16 center" id="Drinks">
+    <div class="quarter">
+      <img src="./img/dr/c.jpg" alt="Drinks" style="width:100%">
+      <h3>Ice Coffee</h3>
+      <p>9.30$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/a.jpg" alt="Drinks" style="width:100%">
+      <h3>strawberry smoothie</h3>
+      <p>4.02$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/cu.jpg" alt="Drinks" style="width:100%">
+      <h3>Cup of Cappuccino</h3>
+      <p>7.15$</p>
+    </div>
+    <div class="quarter">
+      <img src="./img/dr/m.jpg" alt="Drinks" style="width:100%">
+      <h3> matcha latte </h3>
+      <p>12.10$</p>
+    </div>
+  </div>
+
+ <hr>
+  <!-- Footer -->
+ 
+   
+
+<!-- End page content -->
+</div>
+</div>
+<script>
+// Script to open and close sidebar
+function _open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function _close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
